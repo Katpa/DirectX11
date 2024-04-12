@@ -27,12 +27,27 @@
     <ClInclude Include="DirectX11.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Managers\GameManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Frameworks\System\Device.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Frameworks\Utility\Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Framework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Managers\GameManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Frameworks\System\Device.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

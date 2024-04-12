@@ -135,6 +135,9 @@
     <ClInclude Include="DirectX11.h" />
     <ClInclude Include="Framework.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Src\Frameworks\System\Device.h" />
+    <ClInclude Include="Src\Frameworks\Utility\Singleton.h" />
+    <ClInclude Include="Src\Managers\GameManager.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +145,8 @@
     <ClCompile Include="Framework.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Src\Frameworks\System\Device.cpp" />
+    <ClCompile Include="Src\Managers\GameManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DirectX11.rc" />

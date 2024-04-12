@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|solutionrelative:DirectX11\\Src\\Managers\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|solutionrelative:DirectX11\\Src\\Managers\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|solutionrelative:DirectX11\\Src\\Frameworks\\System\\Device.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|solutionrelative:DirectX11\\Src\\Frameworks\\System\\Device.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\DirectX11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D0A66322-0844-49F4-9FD9-89731F6A4BAA}|DirectX11\\DirectX11.vcxproj|solutionrelative:DirectX11\\DirectX11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Framework.h",
-              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Framework.h",
-              "RelativeDocumentMoniker": "DirectX11\\Framework.h",
-              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Framework.h",
-              "RelativeToolTip": "DirectX11\\Framework.h",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBEAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Device.cpp",
+              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.cpp",
+              "RelativeDocumentMoniker": "DirectX11\\Src\\Frameworks\\System\\Device.cpp",
+              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.cpp",
+              "RelativeToolTip": "DirectX11\\Src\\Frameworks\\System\\Device.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T08:17:12.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Device.h",
+              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.h",
+              "RelativeDocumentMoniker": "DirectX11\\Src\\Frameworks\\System\\Device.h",
+              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Frameworks\\System\\Device.h",
+              "RelativeToolTip": "DirectX11\\Src\\Frameworks\\System\\Device.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-12T07:19:40.065Z",
+              "WhenOpened": "2024-04-12T08:10:52.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.cpp",
+              "RelativeDocumentMoniker": "DirectX11\\Src\\Managers\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.cpp",
+              "RelativeToolTip": "DirectX11\\Src\\Managers\\GameManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T08:07:06.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.h",
+              "RelativeDocumentMoniker": "DirectX11\\Src\\Managers\\GameManager.h",
+              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Src\\Managers\\GameManager.h",
+              "RelativeToolTip": "DirectX11\\Src\\Managers\\GameManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T07:47:32.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DirectX11.cpp",
               "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\DirectX11.cpp",
               "RelativeDocumentMoniker": "DirectX11\\DirectX11.cpp",
               "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\DirectX11.cpp",
               "RelativeToolTip": "DirectX11\\DirectX11.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T06:23:31.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Framework.h",
+              "DocumentMoniker": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Framework.h",
+              "RelativeDocumentMoniker": "DirectX11\\Framework.h",
+              "ToolTip": "C:\\Users\\hbcho\\Desktop\\Projects\\DirectX11\\DirectX11\\Framework.h",
+              "RelativeToolTip": "DirectX11\\Framework.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T07:19:40.065Z",
               "EditorCaption": ""
             }
           ]

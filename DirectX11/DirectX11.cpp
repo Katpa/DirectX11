@@ -3,9 +3,8 @@
 
 #define MAX_LOADSTRING 100
 
-ID3D11Device* device;
-
-HINSTANCE hInst;                     
+HINSTANCE hInst;     
+HWND hWnd = nullptr;
 WCHAR szTitle[MAX_LOADSTRING];       
 WCHAR szWindowClass[MAX_LOADSTRING];
 
@@ -33,16 +32,25 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DIRECTX11));
 
-    MSG msg;
+    MSG msg = {0};
 
-    while (GetMessage(&msg, nullptr, 0, 0))
+    GameManager* gameManager = new GameManager();
+
+    while (WM_QUIT != msg.message)
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+        if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
         {
             TranslateMessage(&msg);
             DispatchMessage(&msg);
         }
+        else
+        {
+            gameManager->Update();
+            gameManager->Render();
+        }
     }
+
+    delete gameManager;
 
     return (int) msg.wParam;
 }
@@ -72,7 +80,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance;
 
-   HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
+   hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
 
    if (!hWnd)
